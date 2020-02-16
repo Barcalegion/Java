@@ -3,21 +3,11 @@ import javax.swing.*;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
-
-
-class winner extends TimerTask{
-	public void run() {
-		JOptionPane.showMessageDialog(null,"You are a winner!","Congratulations!",JOptionPane.INFORMATION_MESSAGE);
-	}
-}
+import java.util.Scanner;
 
 public class LabfourPtwo{
 
-	public static void main(String[] args){
-		
-		//Ten percent of the time? so every 6 secs of a min?
-		Timer timer = new Timer();
-		timer.schedule(new winner(), 0, 6000);	
+	public static void main(String[] args){	
 	
 		JFrame gui = new JFrame();
 		gui.setTitle("Lab 4 Part 2");
@@ -39,6 +29,18 @@ public class LabfourPtwo{
 		}
 		
 		gui.setVisible(true); 
+		
+		int guessNumber = 5;
+		int input;
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Hello, guess a number between 1-10: "); 
+		input = userInput.nextInt();
+		
+		if(input == guessNumber){
+			System.out.println("You are a winner!");
+		}
+		
+		
 		
 	}
 

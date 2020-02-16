@@ -1,0 +1,28 @@
+Strongly typed vs loosely typed with java
+is a strongly typed language.
+
+Look a simple line of code any syntax/logic/runtime
+
+How many errors are in line of code
+
+different types
+
+how to compile
+javac 
+
+java is an interped language
+
+know what a comment looks like // /**/
+
+are there built in colors in java 
+
+difference syntax/logic/runtime
+
+if statements while loops and nesting
+
+relational operator
+
+line of getting content pane
+
+
+
