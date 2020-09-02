@@ -1,0 +1,16 @@
+strongly type language vs a losely type language is 
+basics of how the command prompt works opening notepad etc
+gui required for userInput?
+how many errors contain printing, starting a class syntax
+difference between double and integer
+where to put import statements
+is java an interpeted language?
+what does the code do?
+different types of brackets?
+comments
+are there predefined colors in java
+different types of errors syntax, logic , runtime
+relational and logical opertators
+how a loop works 
+if statements and while loops
+adding components to a jframe
